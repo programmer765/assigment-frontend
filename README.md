@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+This is the frontend of the project
+
+Techstack used -
+ReactJS
+HTML
+CSS
+
+for backend - 
+NodeJS
+ExpressJS
+Axios
+
+This app allows one to maintain a remote DB for a particaular field
+Datas accepted - 
+Name, Email, Gender, Status
+
+Operations allowed are simple CRUD operations

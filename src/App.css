@@ -1,38 +1,109 @@
 .App {
+  background: #00000030;
+  padding: 2% 1%;
+  padding-top: 0;
+}
+
+.popupContainer {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 2%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.popup, .download {
+  padding: 2% 3%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popupbtn, .downloadContainer {
+  flex: 1;
+}
+
+.popupbtn {
+  margin-right: 3%;
+}
+
+.downloadContainer {
+  margin-left: 3%;
+}
+
+.popup {
+  float: right;
+  background: #2187f3;
+  box-shadow: 4px 6px 25px #16598f;
+}
+
+.download {
+  float: left;
+  background: #312424;
+  box-shadow: 4px 6px 25px #716d6d;
+}
+
+.modal {
+  background: black;
+  width: 90vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.modalHead {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 2%;
+  border-bottom: 1px solid;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form {
+  display: flex;
+}
+
+.addName, .addEmail, .addGender, .addStatus, .submitBtn {
+  flex: 1;
+  margin: 1% 3%;
+}
+
+.addNameField, .addEmailField {
+  width: 100%;
+}
+
+
+.addGenderSelect, .addStatusSelect {
+  width: 40%;
+  font-size: 14px;
+}
+
+.addNameField:focus, .addEmailField:focus, .addGenderSelect:focus, .addStatusSelect:focus {
+  outline: none;
+}
+
+.submitBtn {
+  text-align: center;
+  padding-top: 2.3%;
+  margin: 0;
+}
+
+.submit {
+  padding: 7% 10%;
+  background: #1cd9c1;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.closeBtn {
+  text-align: center;
+  padding: 1%;
+}
+
+.close {
+  padding: 0.7% 1.8%;
+  background: #561cc3f5;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }

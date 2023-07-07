@@ -1,0 +1,65 @@
+.DataCard {
+  padding: 1.5% 1.7%;
+  border-bottom: 1px solid;
+}
+.dataContainer {
+  display: flex;
+}
+
+.name, .email, .gender, .status, .buttons {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid;
+}
+
+.gender, .status {
+  flex: 0.5;
+}
+
+.buttons {
+  border-right: 0;
+  display: flex;
+}
+
+.editPopup {
+  flex: 1 !important;
+  margin-top: 0 !important;
+  display: block !important;
+}
+
+.del {
+  flex: 1;
+}
+
+.email {
+  padding: 0% 2%;
+}
+
+.btn {
+  color: white;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit {
+  background: blue;
+  padding: 5% 20%;
+}
+
+.delete {
+  background: red;
+  padding: 5% 15%;
+}
+
+.font {
+  font-weight: bold;
+}
+
+.heading {
+  display: none;
+}
+
+.dis {
+  display: block;
+}
